@@ -6,7 +6,7 @@
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
 //static char *font = "Roboto:pixelsize=14:antialias=true:autohint=true";
-static char *font = "Fira Code Retina:pixelsize=15:antialias=true";
+static char *font = "Fira Code Retina:pixelsize=18:antialias=true";
 static int borderpx = 10;
 /*
  * What program is execed by st depends of these precedence rules:
