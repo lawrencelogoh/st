@@ -5,8 +5,8 @@
  *
  * font: see http://freedesktop.org/software/fontconfig/fontconfig-user.html
  */
-//static char *font = "Roboto:pixelsize=14:antialias=true:autohint=true";
-static char *font = "Fira Code Retina:pixelsize=18:antialias=true";
+
+static char *font = "hack:pixelsize=18:antialias=true";
 static int borderpx = 10;
 /*
  * What program is execed by st depends of these precedence rules:
@@ -84,27 +84,27 @@ unsigned int tabspaces = 8;
 
 /* Terminal colors (16 first used in escape sequence) */
 static const char *colorname[] = {
-	// Colors are from "Chalk Dark" colorscheme
+	// Colors are from "Modus Vivendi" colorscheme
 
 	/* 8 normal colors */
-	"#151515", // black
-	"#fb9fb1", // red
-	"#acc267", // green
-	"#ddb26f", // yellow
-	"#6fc2ef", // blue
-	"#e1a3ee", // magenta
-	"#12cfc0", // cyan
-	"#d0d0d0", //gray
+	"#000000", // black
+	"#ff8059", // red
+	"#44bc44", // green
+	"#eecc00", // yellow
+	"#2fafff", // blue
+	"#feacd0", // magenta
+	"#00d3d0", // cyan
+	"#f4f4f4", //gray
 
 	/* 8 bright colors */
-	"#505050", // black
-	"#b10023", // red
-	"#acc267", // green
-	"#ddb26f", // yellow
-	"#6fc2ef", // blue
-	"#00228d", // magenta
-	"#12cfc0", // cyan
-	"#f5f5f5", // white
+	"#100f10", // black
+	"#ffa0a0", // red
+	"#88cf88", // green
+	"#d2b580", // yellow
+	"#92baff", // blue
+	"#e0b2d6", // magenta
+	"#90c4ed", // cyan
+	"#f4f4f4", // white
 
 	[255] = 0,
 
